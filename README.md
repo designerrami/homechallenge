@@ -6,7 +6,7 @@
 
 - 📫 How to reach me **ramazanturan@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Backend</h3>
 <p align="left">
   Login : https://site.test/homechallenge/back/?username=user&password=123456
 </p>
@@ -19,8 +19,18 @@
   You have to save "back" folder to localhost or to your server and change https://site.test/homechallenge/back with your domain.
 </p>
 
+<h3 align="left">Frontend</h3>
+
+
 <p align="left">
   Login
+</p>
+<p align="left">
+  Loading
+</p>
+
+<p align="left">
+  Checker
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
