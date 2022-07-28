@@ -18,6 +18,7 @@ function Navigation() {
 
   const dispatch = useDispatch();
 
+
   // check if before user loged
   const checkAsyncLogin = async (token, browser) => {
     setLoading(true);
@@ -47,7 +48,8 @@ function Navigation() {
 
   // check from cookie user is auth or not
   useEffect(() => {
-    checkAsyncLogin(cookies.auth.token, platform.description);
+    const token = cookies.auth ? cookies.auth.token : undefined;
+    checkAsyncLogin(token, platform.description);
   }, []);
 
   const isAuth = useSelector((state) => state.auth.isAuth); // from redux check to isauth or not
